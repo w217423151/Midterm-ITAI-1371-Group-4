@@ -1,4 +1,10 @@
 # Midterm-ITAI-1371-Group-4
+# IMPORTANT, PLEASE READ PROF. VISHWA
+### Repo structure
+- Our notes and *individual reports* can be found in the Readme file, separated by name of each student.
+- **Final code submission is *FINAL GROUP 4 MIDTERM_DATA_SET.ipynb***
+- All additional *.ipynb* are separate individual contributions. 
+
 ## TOPIC & URL
 
 **Topic:** Predict whether a person will be making more than $50k 
