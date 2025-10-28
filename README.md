@@ -40,8 +40,6 @@ Logistic Regression (for interpretability)
 
 Decision Tree / Random Forest (for accuracy and feature importance)
 
-Gradient Boosting (e.g., XGBoost, LightGBM)
-
 Neural Network (for nonlinear relationships)
 
 - Evaluation Metrics
