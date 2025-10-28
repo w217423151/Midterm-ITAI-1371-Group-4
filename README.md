@@ -108,6 +108,7 @@ Before starting, it is a good idea to look closely at the Target Variable (the i
 Count	Percentage
 income		
 <=50K	24720	75.92
+
 >50K	7841	24.08
 
 12. Prediction: Making More Than $50k income Distribution 
@@ -116,6 +117,7 @@ Target Variable Analysis on Test Data
  Income Distribution Summary (Test Set):
 Count	Percentage
 0	7417	75.92
+    
 1	2352	24.08
 
 Works Cited
