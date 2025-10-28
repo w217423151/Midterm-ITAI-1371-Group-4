@@ -7,6 +7,19 @@
 ## Team member contributions & notes
 
 ### Omar
+**STEPS TAKEN UP TO DATA VALIDATION**
+- Loaded Data: imported the dataset and performed initial checks on its data types and basic information.Initial Cleaning: I transformed all question mark ("?") characters into null values to correctly represent the missing data.
+- Data Quality Checks: checked for missing values, duplicate rows, and performed an initial outlier check using the IQR method.
+- Statistical Analysis: calculated basic summary statistics (mean, median, mode, etc.) for my numerical variables and complementary statistics (skewness, kurtosis) to understand my data's shape. I also generated a separate summary for all categorical variables.
+- Variable Removal: evaluated and removed four specific columns using the .drop() method:fnlwgt, education (the string version, as I kept the integer version for statistcal analysis), capital.gain, and capital.loss.
+- Data Visualization: used three types of plots to inspect my data:Histograms to see the distribution of my numerical variables. Box plots to visually identify outliers. Bar plots/Pie charts to check the frequencies of my categorical variables.
+- Correlation Analysis: created a correlation matrix and scatter plots to understand the relationships between my numerical variables.
+- Validation Planning: planned to perform a "before and after" comparison of the correlation matrices to validate my entire cleaning process.
+
+**JUSTIFICATION OF REMOVED VARIABLES**
+- The variable *fnglwgt* is undefined and no documentation was found from the source to explain what this variable does. It is assumed that it is a calculated value from the previous data handler.
+- The *education* variable appears to be duplicated in the dataset, but one is a string and the other is integer. We kept the integer version since we can do our statsistical analysis with it instead of having to convert the string values.
+- The *capital.gain* and *capital.loss* variables both have the value of 0 approx 96% and 98%, respectively, across all rows. 
 
 ### Maria Jose
 
